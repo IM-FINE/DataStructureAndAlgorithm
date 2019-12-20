@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff9c399-426f-4da0-b514-b1fe8fa17ea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/HeroNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,11 +150,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.DataStructure" />
       <item itemvalue="Application.SparseArray" />
       <item itemvalue="Application.ArrayQueueDemo" />
       <item itemvalue="Application.CircleArrayQueueDemo" />
       <item itemvalue="Application.SingleLinkedListDemo" />
+      <item itemvalue="Maven.DataStructure" />
     </list>
     <recent_temporary>
       <list>
@@ -178,6 +177,7 @@
       <updated>1576146351786</updated>
       <workItem from="1576146353167" duration="577000" />
       <workItem from="1576146969445" duration="28886000" />
+      <workItem from="1576813048148" duration="4698000" />
     </task>
     <servers />
   </component>
@@ -189,7 +189,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

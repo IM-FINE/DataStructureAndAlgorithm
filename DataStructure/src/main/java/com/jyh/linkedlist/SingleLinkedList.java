@@ -12,6 +12,10 @@ class SingleLinkedList {
     //初始化头节点，不存放具体的数据
     private HeroNode head = new HeroNode(0, "", "");
 
+    public HeroNode getHead() {
+        return head;
+    }
+
     //添加节点到链表，需借助辅助变量tmp
     public void add(HeroNode heroNode) {
         HeroNode tmp = head;
@@ -93,7 +97,7 @@ class SingleLinkedList {
         while (true) {
             //判断是否到最后
             if (tmp.next == null) {
-                System.out.print(tmp);
+                System.out.println(tmp);
                 break;
             }
             System.out.print(tmp + "\t→\t");
