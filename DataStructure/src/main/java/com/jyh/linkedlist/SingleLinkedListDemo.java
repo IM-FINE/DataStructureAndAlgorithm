@@ -16,6 +16,7 @@ public class SingleLinkedListDemo {
         HeroNode heroNode2 = new HeroNode(2, "卢俊义", "玉麒麟");
         HeroNode heroNode3 = new HeroNode(3, "吴用", "智多星");
         HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");
+        HeroNode heroNode5 = new HeroNode(5, "xxx", "xxx");
         //创建链表
 //        SingleLinkedList s = new SingleLinkedList();
         //添加到最后
@@ -43,7 +44,7 @@ public class SingleLinkedListDemo {
 //        System.out.println(gentLength(s.getHead()));
 
         //查找单链表中倒数第k个节点
-        System.out.println(findLastIndexNode(s.getHead(), 1));
+//        System.out.println(findLastIndexNode(s.getHead(), 1));
 
         //单链表的反转
 //        reverseList(s.getHead());
@@ -51,6 +52,22 @@ public class SingleLinkedListDemo {
 
         //从尾到头打印单链表
 //        reversePrint(s.getHead());
+
+        //合并有序链表
+        //有序添加
+        //创建链表1、2
+        SingleLinkedList s1 = new SingleLinkedList();
+        SingleLinkedList s2 = new SingleLinkedList();
+        s1.addByorder(heroNode3);
+        s1.addByorder(heroNode1);
+        s2.addByorder(heroNode4);
+        s2.addByorder(heroNode2);
+        s2.addByorder(heroNode5);
+        s1.list();
+        s2.list();
+
+        SingleLinkedList s = mergeOrderList(s1, s2);
+        s.list();
 
 
     }
@@ -129,24 +146,31 @@ public class SingleLinkedListDemo {
     }
 
     //5、合并两个有序单链表，合并后仍然有序
-    public static HeroNode mergeOrderList(HeroNode head1, HeroNode head2) {
+    public static SingleLinkedList mergeOrderList(SingleLinkedList s1, SingleLinkedList s2) {
+        //创建一个新的链表
+        SingleLinkedList s = new SingleLinkedList();
+        HeroNode head1 = s1.getHead();
+        HeroNode head2 = s2.getHead();
         //如果两个链表为空
         if (head1.next == null && head2.next == null) {
-            return head1;
+            s.setHead(head1);
+            return s;
         }
         //如果链表1为空，2不为空，返回2，否则返回1
         if (head1.next == null) {
-            return head2;
+            s.setHead(head2);
+            return s;
         }
         if (head2.next == null) {
-            return head1;
+            s.setHead(head1);
+            return s;
         }
         //两个都不为空，将2合并到1中
         //借助临时变量
         HeroNode tmp1 = head1;
         HeroNode tmp2 = head2.next;
         HeroNode next;
-        boolean flag = false;//标志找到位置
+        boolean flag = false;//标志找到
         while (tmp2 != null) {
             //找tmp2插入的位置
             while (true) {
@@ -155,7 +179,7 @@ public class SingleLinkedListDemo {
                     flag = true;
                     break;
                 } else if (tmp2.no == tmp1.next.no) {
-                    //编号相同，不能插入
+                    //编号相同，不能插入，跳过
                     break;
                 } else if (tmp2.no < tmp1.next.no) {
                     //找到了
@@ -165,13 +189,17 @@ public class SingleLinkedListDemo {
                 tmp1 = tmp1.next;
             }
             if (flag) {
-                //找到位置
+                //找到位置，插入节点
                 next = tmp2.next;
                 tmp2.next = tmp1.next;
-                tmp1 = tmp2;
+                tmp1.next = tmp2;
                 tmp2 = next;
+            } else {
+                tmp2 = tmp2.next;
             }
+            flag = false;
         }
-        return head1;
+        s.setHead(head1);
+        return s;
     }
 }

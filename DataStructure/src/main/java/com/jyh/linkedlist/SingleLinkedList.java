@@ -16,6 +16,10 @@ class SingleLinkedList {
         return head;
     }
 
+    public void setHead(HeroNode head) {
+        this.head = head;
+    }
+
     //添加节点到链表，需借助辅助变量tmp
     public void add(HeroNode heroNode) {
         HeroNode tmp = head;
