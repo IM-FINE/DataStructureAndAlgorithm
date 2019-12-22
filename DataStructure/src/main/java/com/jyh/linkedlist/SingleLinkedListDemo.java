@@ -18,13 +18,13 @@ public class SingleLinkedListDemo {
         HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");
         HeroNode heroNode5 = new HeroNode(5, "xxx", "xxx");
         //创建链表
-//        SingleLinkedList s = new SingleLinkedList();
+        SingleLinkedList s = new SingleLinkedList();
         //添加到最后
-//        s.add(heroNode1);
-//        s.add(heroNode3);
-//        s.add(heroNode4);
-//        s.add(heroNode2);
-//        s.list();
+        s.add(heroNode1);
+        s.add(heroNode3);
+        s.add(heroNode4);
+        s.add(heroNode2);
+        s.list();
 
         //有序添加
 //        s.addByorder(heroNode2);
@@ -33,6 +33,11 @@ public class SingleLinkedListDemo {
 //        s.addByorder(heroNode3);
 //        s.addByorder(heroNode1);
 //        s.list();
+
+        //删除
+        s.del(heroNode5);
+        s.list();
+
 
 
         //修改信息
@@ -56,18 +61,18 @@ public class SingleLinkedListDemo {
         //合并有序链表
         //有序添加
         //创建链表1、2
-        SingleLinkedList s1 = new SingleLinkedList();
-        SingleLinkedList s2 = new SingleLinkedList();
-        s1.addByorder(heroNode3);
-        s1.addByorder(heroNode1);
-        s2.addByorder(heroNode4);
-        s2.addByorder(heroNode2);
-        s2.addByorder(heroNode5);
-        s1.list();
-        s2.list();
-
-        SingleLinkedList s = mergeOrderList(s1, s2);
-        s.list();
+//        SingleLinkedList s1 = new SingleLinkedList();
+//        SingleLinkedList s2 = new SingleLinkedList();
+//        s1.addByorder(heroNode3);
+//        s1.addByorder(heroNode1);
+//        s2.addByorder(heroNode4);
+//        s2.addByorder(heroNode2);
+//        s2.addByorder(heroNode5);
+//        s1.list();
+//        s2.list();
+//
+//        SingleLinkedList s = mergeOrderList(s1, s2);
+//        s.list();
 
 
     }
