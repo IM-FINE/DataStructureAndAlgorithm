@@ -8,7 +8,7 @@ package com.jyh.stack;
  */
 public class CalculatorDemo {
     public static void main(String[] args) {
-        String expression = "3+2*6-2";
+        String expression = "8+2*6-2";
         //创建两个栈，一个数栈（存放数字），一个符号栈（存放符号）
         ArrayStack numStack = new ArrayStack(10);
         ArrayStack operStack = new ArrayStack(10);
@@ -73,7 +73,7 @@ public class CalculatorDemo {
             numStack.push(res);
         }
         //最后留在栈中的数字即为最后的结果
-        System.out.printf("表达式：%s=%d", expression, numStack.peek());
+        System.out.printf("表达式：%s=%d", expression, numStack.pop());
 
     }
 
