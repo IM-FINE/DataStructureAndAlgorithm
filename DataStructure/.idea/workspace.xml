@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff9c399-426f-4da0-b514-b1fe8fa17ea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/Boy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/CircleSingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/linkedlist/JosephusDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyh/stack/CalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyh/stack/CalculatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/stack/CalculatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/stack/CalculatorDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TestHadoop" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -51,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JosephusDemo">
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.queue.ArrayQueueDemo" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.stack.CalculatorDemo" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyh.queue.*" />
+          <option name="PATTERN" value="com.jyh.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,25 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jyh.linkedlist.SingleLinkedListDemo" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jyh.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.sparsearray.SparseArray" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jyh.sparsearray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,20 +158,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SparseArray" />
-      <item itemvalue="Application.ArrayQueueDemo" />
       <item itemvalue="Application.CircleArrayQueueDemo" />
       <item itemvalue="Application.SingleLinkedListDemo" />
       <item itemvalue="Maven.DataStructure" />
       <item itemvalue="Application.JosephusDemo" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CalculatorDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CalculatorDemo" />
         <item itemvalue="Application.JosephusDemo" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.CircleArrayQueueDemo" />
-        <item itemvalue="Application.ArrayQueueDemo" />
-        <item itemvalue="Application.SparseArray" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +187,7 @@
       <updated>1576146351786</updated>
       <workItem from="1576146353167" duration="577000" />
       <workItem from="1576146969445" duration="28886000" />
-      <workItem from="1576813048148" duration="19543000" />
+      <workItem from="1576813048148" duration="24673000" />
     </task>
     <servers />
   </component>

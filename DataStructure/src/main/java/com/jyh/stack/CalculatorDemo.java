@@ -8,7 +8,7 @@ package com.jyh.stack;
  */
 public class CalculatorDemo {
     public static void main(String[] args) {
-        String expression = "8+2*6-2";
+        String expression = "288+2*6-12";
         //创建两个栈，一个数栈（存放数字），一个符号栈（存放符号）
         ArrayStack numStack = new ArrayStack(10);
         ArrayStack operStack = new ArrayStack(10);
@@ -19,7 +19,7 @@ public class CalculatorDemo {
         int oper;
         int res;
         char ch = ' ';//每次扫满得到得到的char保存到ch
-
+        String keepNums = "";//用于接收多位数
         //开始扫面
         while (true) {
             //依次得到表达式的每一个字符
@@ -50,7 +50,22 @@ public class CalculatorDemo {
                 }
             } else { //如果不是运算符
                 //直接入数栈
-                numStack.push(ch - 48);//-48是因为1在ascii表的49号上
+                //numStack.push(ch - 48);//-48是因为1在ascii表的49号上
+                //上一步只考虑了一位数
+                //如果不是运算符，则拼接
+                keepNums += ch;
+                //如果index到最后了
+                if (index == expression.length() - 1) {
+                    numStack.push(Integer.parseInt(keepNums));
+                }
+                //如果是运算符
+                else if (isOper(expression.charAt(index + 1))) {
+                    //入栈
+                    numStack.push(Integer.parseInt(keepNums));
+                    //入完栈之后清空keepNums
+                    keepNums = "";
+                }
+
             }
             //让index+1
             index++;
