@@ -16,3 +16,12 @@ public class Main {
         System.out.println(b);
     }
 }
+
+class A{
+    private static int a=0;
+
+    public static void b(){
+        System.out.println(a);
+    }
+
+}
