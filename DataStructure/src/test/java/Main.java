@@ -14,6 +14,13 @@ public class Main {
 
         System.out.println(a);
         System.out.println(b);
+
+        int e = Math.abs((2 - 6) / (6 - 3));
+        System.out.println((2 - 6) / (6 - 3));
+        System.out.println(4/3);
+        System.out.println(e);
+
+        System.out.println(e==1);
     }
 }
 

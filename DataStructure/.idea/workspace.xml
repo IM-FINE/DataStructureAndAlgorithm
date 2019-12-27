@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff9c399-426f-4da0-b514-b1fe8fa17ea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/stack/PolandNotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/stack/PolandNotationUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/recursion/MazeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/recursion/Queen8Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DataStructure.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/DataStructure.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/Boy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/Boy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/CircleSingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/CircleSingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/DoubleHeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/DoubleHeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/DoubleLinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/DoubleLinkedListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/HeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/JosephusDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/JosephusDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/SingleLinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/linkedlist/SingleLinkedListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/queue/ArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/queue/ArrayQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/queue/CircleArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/queue/CircleArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/queue/CircleArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/queue/CircleArrayQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/sparsearray/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/sparsearray/SparseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/stack/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/stack/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/stack/ArrayStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/stack/ArrayStackDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/stack/CalculatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/stack/CalculatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/A.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +14,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DataStructure" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PolandNotationDemo">
+  <component name="RunManager" selected="Application.Queen8Demo">
     <configuration name="CalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jyh.stack.CalculatorDemo" />
       <module name="DataStructure" />
@@ -88,22 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.linkedlist.JosephusDemo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jyh.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MazeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.recursion.MazeDemo" />
       <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyh.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.linkedlist.SingleLinkedListDemo" />
+    <configuration name="Queen8Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.recursion.Queen8Demo" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyh.linkedlist.*" />
+          <option name="PATTERN" value="com.jyh.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,20 +164,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SingleLinkedListDemo" />
       <item itemvalue="Maven.DataStructure" />
-      <item itemvalue="Application.JosephusDemo" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CalculatorDemo" />
       <item itemvalue="Application.PolandNotationDemo" />
+      <item itemvalue="Application.MazeDemo" />
+      <item itemvalue="Application.Queen8Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queen8Demo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MazeDemo" />
         <item itemvalue="Application.PolandNotationDemo" />
         <item itemvalue="Application.CalculatorDemo" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JosephusDemo" />
-        <item itemvalue="Application.SingleLinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +193,7 @@
       <updated>1576146351786</updated>
       <workItem from="1576146353167" duration="577000" />
       <workItem from="1576146969445" duration="28886000" />
-      <workItem from="1576813048148" duration="39521000" />
+      <workItem from="1576813048148" duration="51773000" />
     </task>
     <servers />
   </component>
