@@ -1,5 +1,7 @@
 package com.jyh.recursion;
 
+import java.util.Arrays;
+
 /**
  * @Author: jyh
  * @Date: 2019/12/27
@@ -47,7 +49,7 @@ public class Queen8Demo {
         //结束条件
         if (n == max) {
             count++;
-            show(arr);
+            System.out.println(Arrays.toString(arr));;
             return;
         }
         //依次放置皇后并判断是否冲突
