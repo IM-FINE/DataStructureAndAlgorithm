@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff9c399-426f-4da0-b514-b1fe8fa17ea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/sort/BubbleDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/sort/InsertDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/sort/SelectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/sort/ShellDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyh/recursion/Queen8Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyh/recursion/Queen8Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/recursion/Queen8Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/recursion/Queen8Demo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertDemo">
+  <component name="RunManager" selected="Application.ShellDemo">
     <configuration name="BubbleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jyh.sort.BubbleDemo" />
       <module name="DataStructure" />
@@ -84,13 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DataStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Queen8Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jyh.recursion.Queen8Demo" />
       <module name="DataStructure" />
@@ -106,6 +95,19 @@
     </configuration>
     <configuration name="SelectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jyh.sort.SelectDemo" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyh.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShellDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.sort.ShellDemo" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -164,20 +166,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.DataStructure" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Queen8Demo" />
       <item itemvalue="Application.BubbleDemo" />
       <item itemvalue="Application.SelectDemo" />
       <item itemvalue="Application.InsertDemo" />
+      <item itemvalue="Application.ShellDemo" />
+      <item itemvalue="Maven.DataStructure" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellDemo" />
         <item itemvalue="Application.InsertDemo" />
         <item itemvalue="Application.SelectDemo" />
         <item itemvalue="Application.BubbleDemo" />
         <item itemvalue="Application.Queen8Demo" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,7 @@
       <updated>1576146351786</updated>
       <workItem from="1576146353167" duration="577000" />
       <workItem from="1576146969445" duration="28886000" />
-      <workItem from="1576813048148" duration="62840000" />
+      <workItem from="1576813048148" duration="79520000" />
     </task>
     <servers />
   </component>
