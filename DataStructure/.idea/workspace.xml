@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff9c399-426f-4da0-b514-b1fe8fa17ea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/sort/QuickDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/sort/MergeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,9 +53,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickDemo">
-    <configuration name="BubbleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.sort.BubbleDemo" />
+  <component name="RunManager" selected="Application.MergeDemo">
+    <configuration name="InsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.sort.InsertDemo" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.sort.InsertDemo" />
+    <configuration name="MergeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.sort.MergeDemo" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -166,20 +166,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleDemo" />
       <item itemvalue="Application.SelectDemo" />
       <item itemvalue="Application.InsertDemo" />
       <item itemvalue="Application.ShellDemo" />
       <item itemvalue="Maven.DataStructure" />
       <item itemvalue="Application.QuickDemo" />
+      <item itemvalue="Application.MergeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeDemo" />
         <item itemvalue="Application.QuickDemo" />
         <item itemvalue="Application.ShellDemo" />
         <item itemvalue="Application.InsertDemo" />
         <item itemvalue="Application.SelectDemo" />
-        <item itemvalue="Application.BubbleDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +196,7 @@
       <workItem from="1576146353167" duration="577000" />
       <workItem from="1576146969445" duration="28886000" />
       <workItem from="1576813048148" duration="79520000" />
-      <workItem from="1577700655932" duration="15880000" />
+      <workItem from="1577700655932" duration="19766000" />
     </task>
     <servers />
   </component>
