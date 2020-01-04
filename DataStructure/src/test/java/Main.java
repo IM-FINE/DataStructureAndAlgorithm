@@ -21,6 +21,9 @@ public class Main {
         System.out.println(e);
 
         System.out.println(e==1);
+
+        int t= (int) Math.pow(10, 2);
+        System.out.println(t);
     }
 }
 
